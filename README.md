@@ -22,6 +22,7 @@
    ![Скриншот меню](images/folder_id.png)
 4. Перейдите во вкладку “Сервисные аккаунты”, нажмите на троеточие слева и выберите “Создать сервисный аккаунт”.
    ![Скриншот меню](images/service_accounts.png)
+   ![Скриншот меню](images/creation_service_account.png)
    ![Скриншот меню](images/creation_service_account_.png)
     * Заполните данные и в поле "роль" выберите `ai.translate.user` (это и будет роль переводчика Яндекса), затем нажмите "Создать".
     * ![Скриншот меню](images/menu_creation_service_account.png)
