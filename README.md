@@ -41,7 +41,7 @@
     ![Скриншот меню](images/result_api.png)
 Теперь вы готовы использовать API ключ для работы с проектом.
 
-##Настройка API ключа и Folder ID:
+## Настройка API ключа и Folder ID:
 
    Перейдите в файл application.properties в папке src/main/resources и измените значения для folderID и api-key:
    ```bash
