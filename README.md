@@ -9,6 +9,7 @@
 * Java 17
 * Maven
 * Spring Boot 3
+* PostgreSQL
 * Docker
 
 ## Использование
@@ -25,7 +26,7 @@
    ![Скриншот меню](images/creation_service_account.png)
    ![Скриншот меню](images/creation_service_account_.png)
     * Заполните данные и в поле "роль" выберите `ai.translate.user` (это и будет роль переводчика Яндекса), затем нажмите "Создать".
-    * ![Скриншот меню](images/menu_creation_service_account.png)
+    ![Скриншот меню](images/menu_creation_service_account.png)
 6. Создайте платежный аккаунт для использования сервисов Yandex Cloud. (Если у вас его нет)
     * Заполните информацию в соответствии с вашими данными. Yandex Cloud является бесплатным при соблюдении квот и лимитов, подробнее об этом можно почитать [здесь](https://cloud.yandex.ru/docs/billing/overview).
    ![Скриншот меню](images/menu_pay_account.png)
