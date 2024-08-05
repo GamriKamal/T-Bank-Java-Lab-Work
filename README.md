@@ -47,7 +47,7 @@
 
 ## Настройка API ключа и Folder ID:
 
-   Перейдите в файл application.properties в папке src/main/resources и измените значения для folderID и api-key:
+   Перейдите в файл application.properties в папке `src/main/resources` и измените значения для folderID и api-key:
    ```bash
    yandex.cloud.folderId=ВАШ_FOLDER_ID
    yandex.cloud.api.key=ВАШ_API_KEY
@@ -71,4 +71,4 @@
 
 3. **Запуск сгенерированного Swagger UI:**
 
-После запуска контейнеров вы можете получить доступ к Swagger UI, который предоставляет интерфейс для взаимодействия с API. Swagger UI доступен по следующему URL: http://localhost:8080/swagger-ui.html.
+   После запуска контейнеров вы можете получить доступ к Swagger UI, который предоставляет интерфейс для взаимодействия с API. Swagger UI доступен по следующему URL: http://localhost:8080/swagger-ui.html.
