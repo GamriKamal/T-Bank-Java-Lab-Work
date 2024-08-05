@@ -1,0 +1,37 @@
+version: '3.8'
+services:
+  postgres_db:
+    container_name: postgresql_db
+    ports:
+      - "5432:5432"
+    image: postgres:13
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: t_bank_translations
+    volumes:
+      - /home/mr-irmag/Desktop/data_db:/var/lib/postgresql/data
+    networks:
+      - translator_network
+    restart: always
+    entrypoint: [ "docker-entrypoint.sh", "postgres" ]
+
+  translator-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: translator-service
+    environment:
+      - DB_URL=jdbc:postgresql://postgres_db:5432/t_bank_translations
+      - DB_USERNAME=postgres
+      - DB_PASSWORD=root
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgres_db
+    networks:
+      - translator_network
+
+networks:
+  translator_network:
+    driver: bridge

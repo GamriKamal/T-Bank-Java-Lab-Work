@@ -1,0 +1,13 @@
+irmag/io/TbankTranslator/CustomValidator/ValidLanguageCode.class
+irmag/io/TbankTranslator/PostgreSQL/DatabaseConnection.class
+irmag/io/TbankTranslator/Entity/TranslationRecord.class
+irmag/io/TbankTranslator/Configs/RestTemplateConfig.class
+irmag/io/TbankTranslator/CustomException/NoRecordsFoundException.class
+irmag/io/TbankTranslator/Configs/YandexCloudConfig.class
+irmag/io/TbankTranslator/DTO/TranslationRequest.class
+irmag/io/TbankTranslator/Repository/TranslationRecordRepositoryImlp.class
+irmag/io/TbankTranslator/TbankTranslatorApplication.class
+irmag/io/TbankTranslator/Controller/YandexTranslateController.class
+irmag/io/TbankTranslator/Services/YandexTranslationService.class
+irmag/io/TbankTranslator/CustomValidator/LanguageCodeValidator.class
+irmag/io/TbankTranslator/Repository/TranslationRecordRepository.class

@@ -1,0 +1,13 @@
+/home/mr-irmag/Desktop/q/TbankTranslator/TbankTranslator/src/main/java/irmag/io/TbankTranslator/Configs/RestTemplateConfig.java
+/home/mr-irmag/Desktop/q/TbankTranslator/TbankTranslator/src/main/java/irmag/io/TbankTranslator/Configs/YandexCloudConfig.java
+/home/mr-irmag/Desktop/q/TbankTranslator/TbankTranslator/src/main/java/irmag/io/TbankTranslator/Controller/YandexTranslateController.java
+/home/mr-irmag/Desktop/q/TbankTranslator/TbankTranslator/src/main/java/irmag/io/TbankTranslator/CustomException/NoRecordsFoundException.java
+/home/mr-irmag/Desktop/q/TbankTranslator/TbankTranslator/src/main/java/irmag/io/TbankTranslator/CustomValidator/LanguageCodeValidator.java
+/home/mr-irmag/Desktop/q/TbankTranslator/TbankTranslator/src/main/java/irmag/io/TbankTranslator/CustomValidator/ValidLanguageCode.java
+/home/mr-irmag/Desktop/q/TbankTranslator/TbankTranslator/src/main/java/irmag/io/TbankTranslator/DTO/TranslationRequest.java
+/home/mr-irmag/Desktop/q/TbankTranslator/TbankTranslator/src/main/java/irmag/io/TbankTranslator/Entity/TranslationRecord.java
+/home/mr-irmag/Desktop/q/TbankTranslator/TbankTranslator/src/main/java/irmag/io/TbankTranslator/PostgreSQL/DatabaseConnection.java
+/home/mr-irmag/Desktop/q/TbankTranslator/TbankTranslator/src/main/java/irmag/io/TbankTranslator/Repository/TranslationRecordRepository.java
+/home/mr-irmag/Desktop/q/TbankTranslator/TbankTranslator/src/main/java/irmag/io/TbankTranslator/Repository/TranslationRecordRepositoryImlp.java
+/home/mr-irmag/Desktop/q/TbankTranslator/TbankTranslator/src/main/java/irmag/io/TbankTranslator/Services/YandexTranslationService.java
+/home/mr-irmag/Desktop/q/TbankTranslator/TbankTranslator/src/main/java/irmag/io/TbankTranslator/TbankTranslatorApplication.java
