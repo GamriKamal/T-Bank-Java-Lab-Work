@@ -32,6 +32,7 @@
 
 8. После создания сервисного аккаунта, перейдите на его страницу.
    ![Скриншот меню](images/press_service_account.png)
+   ![Скриншот меню](images/menu_service_account.png)
 10. Сгенерируйте API ключ:
     * Нажмите "Создать новый ключ" и выберите "Создать API-ключ".
     ![Скриншот меню](images/menu_service_account_api.png)
