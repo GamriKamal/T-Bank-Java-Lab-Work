@@ -10,7 +10,7 @@ services:
       POSTGRES_PASSWORD: root
       POSTGRES_DB: t_bank_translations
     volumes:
-      - /home/mr-irmag/Desktop/data_db:/var/lib/postgresql/data
+      - /путь/до/локального/хранилища/postgresql:/var/lib/postgresql/data
     networks:
       - translator_network
     restart: always
