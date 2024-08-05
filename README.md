@@ -49,8 +49,8 @@
 
    Перейдите в файл application.properties в папке src/main/resources и измените значения для folderID и api-key:
    ```bash
-   yandex.translate.folderId=ВАШ_FOLDER_ID
-   yandex.translate.api.key=ВАШ_API_KEY
+   yandex.cloud.folderId=ВАШ_FOLDER_ID
+   yandex.cloud.api.key=ВАШ_API_KEY
    ```
 ## Запуск программы
 
